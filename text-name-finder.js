@@ -7,7 +7,7 @@ const texts =[
 
 
 const findName = ( text ) => {
-    let [undefined, name] = text.match(/(?:[Mm]y name is|(?:[Ii]'m|[Ii] am) called) ([a-z]{2,20})/)
+    let [undefined, name] = text.match(/(?:[Mm]y name is|[Ii](?:'m| am) called) ([a-z]{2,20})/)
     return name
 }
 
